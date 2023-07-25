@@ -1,0 +1,11 @@
+##gff-version 3
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	1087577	1088821	.	.	.	ID=solo_ltr_0;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	1068179	1069696	.	.	.	ID=solo_ltr_1;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	1061949	1062140	.	.	.	ID=solo_ltr_2;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	990292	990482	.	.	.	ID=solo_ltr_3;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	814998	815186	.	.	.	ID=solo_ltr_4;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	733720	733905	.	.	.	ID=solo_ltr_5;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	597856	598344	.	.	.	ID=solo_ltr_6;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	343607	343793	.	.	.	ID=solo_ltr_7;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	269188	269371	.	.	.	ID=solo_ltr_8;color=#7104c9
+10|0-2Mb_part2:900000|2000000	nested-nester_solo_ltrs	solo_ltr	253626	255327	.	.	.	ID=solo_ltr_9;color=#7104c9

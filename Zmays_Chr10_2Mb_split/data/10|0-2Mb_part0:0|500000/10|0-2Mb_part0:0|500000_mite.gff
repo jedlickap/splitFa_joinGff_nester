@@ -1,0 +1,4 @@
+##gff-version 3
+10|0-2Mb_part0:0|500000	miteFinder	mite	174808	174864	.	.	.	ID=mite_0;color=#025fc2
+10|0-2Mb_part0:0|500000	miteFinder	terminal_inverted_repeat	174808	174818	.	.	.	ID=tir_left_0;Parent=mite_0;color=#04d442
+10|0-2Mb_part0:0|500000	miteFinder	terminal_inverted_repeat	174854	174864	.	.	.	ID=tir_right_0;Parent=mite_0;color=#04d442

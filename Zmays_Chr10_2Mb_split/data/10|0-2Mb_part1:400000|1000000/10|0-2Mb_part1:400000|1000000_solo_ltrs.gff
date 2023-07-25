@@ -1,0 +1,6 @@
+##gff-version 3
+10|0-2Mb_part1:400000|1000000	nested-nester_solo_ltrs	solo_ltr	516662	516852	.	.	.	ID=solo_ltr_0;color=#7104c9
+10|0-2Mb_part1:400000|1000000	nested-nester_solo_ltrs	solo_ltr	389015	389203	.	.	.	ID=solo_ltr_1;color=#7104c9
+10|0-2Mb_part1:400000|1000000	nested-nester_solo_ltrs	solo_ltr	242294	318297	.	.	.	ID=solo_ltr_2;color=#7104c9
+10|0-2Mb_part1:400000|1000000	nested-nester_solo_ltrs	solo_ltr	166646	167576	.	.	.	ID=solo_ltr_3;color=#7104c9
+10|0-2Mb_part1:400000|1000000	nested-nester_solo_ltrs	solo_ltr	46265	46739	.	.	.	ID=solo_ltr_4;color=#7104c9

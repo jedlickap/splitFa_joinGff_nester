@@ -1,0 +1,462 @@
+##gff-version 3
+##sequence-region 10|0-2Mb_part1:400000|1000000 1 600000
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	583524	592998	.	.	.	ID=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=TE_BASE 0;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	583524	592998	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	588046	588520	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay GAG_del;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	589087	589345	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay AP_del;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	589657	590329	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay RT_del;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	590470	590815	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay RNaseH_del;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	591118	592147	.	+	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay INT_del;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	592210	592363	.	+	.	ID=DOMAIN 0-5-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay CHR_tekay_Tekay;name=CHD;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	583650	583670	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	592935	592998	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	583524	583594	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	547833	555227	.	.	.	ID=TE_BASE 1;annot=NA;name=TE_BASE 1;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	547833	555227	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	554519	554537	.	.	.	ID=PBS 1;Parent=TE_BASE 1;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	548584	548598	.	.	.	ID=PPT 1;Parent=TE_BASE 1;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	554562	555227	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	547833	548499	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	547828	547832	.	.	.	ID=TSR LEFT 1;Parent=TE_BASE 1;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	555228	555232	.	.	.	ID=TSR RIGHT 1;Parent=TE_BASE 1;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	532556	540887	.	.	.	ID=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 2;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	532556	540887	.	.	.	ID=TE 2-0;Parent=TE_BASE 2;name=TE 2;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	534486	535146	.	+	.	ID=DOMAIN 2-0-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	536666	536909	.	+	.	ID=DOMAIN 2-1-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	537056	537713	.	+	.	ID=DOMAIN 2-2-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	538393	539116	.	+	.	ID=DOMAIN 2-3-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	539401	539803	.	+	.	ID=DOMAIN 2-4-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	533025	533046	.	.	.	ID=PBS 2;Parent=TE_BASE 2;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	540688	540702	.	.	.	ID=PPT 2;Parent=TE_BASE 2;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	540702	540887	.	.	.	ID=LTR RIGHT 2-0;Parent=TE_BASE 2;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	532556	532741	.	.	.	ID=LTR LEFT 2-0;Parent=TE_BASE 2;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	532552	532555	.	.	.	ID=TSR LEFT 2;Parent=TE_BASE 2;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	540888	540891	.	.	.	ID=TSR RIGHT 2;Parent=TE_BASE 2;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	521705	526764	.	.	.	ID=TE_BASE 3;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=TE_BASE 3;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	521705	526764	.	.	.	ID=TE 3-0;Parent=TE_BASE 3;name=TE 3;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	524259	524604	.	+	.	ID=DOMAIN 3-0-0;Parent=TE_BASE 3;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay RNaseH_del;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	524907	525936	.	+	.	ID=DOMAIN 3-1-0;Parent=TE_BASE 3;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay INT_del;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	526107	526121	.	.	.	ID=PPT 3;Parent=TE_BASE 3;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	526201	526764	.	.	.	ID=LTR RIGHT 3-0;Parent=TE_BASE 3;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	521705	522271	.	.	.	ID=LTR LEFT 3-0;Parent=TE_BASE 3;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	504373	515402	.	.	.	ID=TE_BASE 4;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 4;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	504373	515402	.	.	.	ID=TE 4-0;Parent=TE_BASE 4;name=TE 4;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	509934	510927	.	-	.	ID=DOMAIN 4-0-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	511385	511748	.	-	.	ID=DOMAIN 4-1-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	511793	512159	.	-	.	ID=DOMAIN 4-2-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	512309	512876	.	-	.	ID=DOMAIN 4-3-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	513644	513661	.	.	.	ID=PBS 4;Parent=TE_BASE 4;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	506106	506120	.	.	.	ID=PPT 4;Parent=TE_BASE 4;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	513708	515402	.	.	.	ID=LTR LEFT 4-0;Parent=TE_BASE 4;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	504373	506062	.	.	.	ID=LTR RIGHT 4-0;Parent=TE_BASE 4;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	504368	504372	.	.	.	ID=TSR RIGHT 4;Parent=TE_BASE 4;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	515403	515407	.	.	.	ID=TSR LEFT 4;Parent=TE_BASE 4;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	478216	487167	.	.	.	ID=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 5;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	478216	487167	.	.	.	ID=TE 5-0;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	479815	480271	.	+	.	ID=DOMAIN 5-0-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	481967	482210	.	+	.	ID=DOMAIN 5-1-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	482363	483020	.	+	.	ID=DOMAIN 5-2-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	483656	484379	.	+	.	ID=DOMAIN 5-3-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	484664	485066	.	+	.	ID=DOMAIN 5-4-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	479470	479487	.	.	.	ID=PBS 5;Parent=TE_BASE 5;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	485920	485934	.	.	.	ID=PPT 5;Parent=TE_BASE 5;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	485934	487167	.	.	.	ID=LTR RIGHT 5-0;Parent=TE_BASE 5;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	478216	479465	.	.	.	ID=LTR LEFT 5-0;Parent=TE_BASE 5;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	478211	478215	.	.	.	ID=TSR LEFT 5;Parent=TE_BASE 5;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	487168	487172	.	.	.	ID=TSR RIGHT 5;Parent=TE_BASE 5;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	460454	466307	.	.	.	ID=TE_BASE 6;annot=NA;name=TE_BASE 6;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	460454	466307	.	.	.	ID=TE 6-0;Parent=TE_BASE 6;name=TE 6;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	461822	461840	.	.	.	ID=PBS 6;Parent=TE_BASE 6;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	464985	466307	.	.	.	ID=LTR RIGHT 6-0;Parent=TE_BASE 6;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	460454	461774	.	.	.	ID=LTR LEFT 6-0;Parent=TE_BASE 6;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	451562	460449	.	.	.	ID=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 7;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	451562	460449	.	.	.	ID=TE 7-0;Parent=TE_BASE 7;name=TE 7;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	453239	453641	.	-	.	ID=DOMAIN 7-0-0;Parent=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	453926	454649	.	-	.	ID=DOMAIN 7-1-0;Parent=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	455333	455990	.	-	.	ID=DOMAIN 7-2-0;Parent=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	456137	456380	.	-	.	ID=DOMAIN 7-3-0;Parent=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	457866	458697	.	-	.	ID=DOMAIN 7-4-0;Parent=TE_BASE 7;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	459653	459671	.	.	.	ID=PBS 7;Parent=TE_BASE 7;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	452284	452298	.	.	.	ID=PPT 7;Parent=TE_BASE 7;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	459746	460449	.	.	.	ID=LTR LEFT 7-0;Parent=TE_BASE 7;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	451562	452284	.	.	.	ID=LTR RIGHT 7-0;Parent=TE_BASE 7;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	443775	448882	.	.	.	ID=TE_BASE 8;annot=NA;name=TE_BASE 8;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	443775	448882	.	.	.	ID=TE 8-0;Parent=TE_BASE 8;name=TE 8;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	444149	444167	.	.	.	ID=PBS 8;Parent=TE_BASE 8;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	448492	448506	.	.	.	ID=PPT 8;Parent=TE_BASE 8;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	448521	448882	.	.	.	ID=LTR RIGHT 8-0;Parent=TE_BASE 8;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	443775	444135	.	.	.	ID=LTR LEFT 8-0;Parent=TE_BASE 8;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	427977	436967	.	.	.	ID=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 9;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	427977	436967	.	.	.	ID=TE 9-0;Parent=TE_BASE 9;name=TE 9;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	429191	430004	.	+	.	ID=DOMAIN 9-0-0;Parent=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	431640	431790	.	+	.	ID=DOMAIN 9-1-0;Parent=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	431937	432480	.	+	.	ID=DOMAIN 9-2-0;Parent=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	433579	433999	.	+	.	ID=DOMAIN 9-3-0;Parent=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	434284	434686	.	+	.	ID=DOMAIN 9-4-0;Parent=TE_BASE 9;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	428827	428845	.	.	.	ID=PBS 9;Parent=TE_BASE 9;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	436035	436049	.	.	.	ID=PPT 9;Parent=TE_BASE 9;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	436119	436967	.	.	.	ID=LTR RIGHT 9-0;Parent=TE_BASE 9;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	427977	428822	.	.	.	ID=LTR LEFT 9-0;Parent=TE_BASE 9;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	407084	425213	.	.	.	ID=TE_BASE 10;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 10;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	407084	425213	.	.	.	ID=TE 10-0;Parent=TE_BASE 10;name=TE 10;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	421754	422756	.	-	.	ID=DOMAIN 10-0-0;Parent=TE_BASE 10;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	423215	423479	.	-	.	ID=DOMAIN 10-1-0;Parent=TE_BASE 10;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	423769	424036	.	-	.	ID=DOMAIN 10-2-0;Parent=TE_BASE 10;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	424270	424290	.	.	.	ID=PBS 10;Parent=TE_BASE 10;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	424349	425213	.	.	.	ID=LTR LEFT 10-0;Parent=TE_BASE 10;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	407084	407966	.	.	.	ID=LTR RIGHT 10-0;Parent=TE_BASE 10;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	391704	403112	.	.	.	ID=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=TE_BASE 11;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	391704	403112	.	.	.	ID=TE 11-0;Parent=TE_BASE 11;name=TE 11;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	395882	396605	.	+	.	ID=DOMAIN 11-0-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay GAG_del;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	396797	397055	.	+	.	ID=DOMAIN 11-1-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay AP_del;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	397361	398027	.	+	.	ID=DOMAIN 11-2-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay RT_del;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	398168	398510	.	+	.	ID=DOMAIN 11-3-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay RNaseH_del;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	398816	399845	.	+	.	ID=DOMAIN 11-4-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay INT_del;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	399908	400070	.	+	.	ID=DOMAIN 11-5-0;Parent=TE_BASE 11;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay CHR_tekay_Tekay;name=CHD;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	394739	394757	.	.	.	ID=PBS 11;Parent=TE_BASE 11;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	400016	400030	.	.	.	ID=PPT 11;Parent=TE_BASE 11;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	400110	403112	.	.	.	ID=LTR RIGHT 11-0;Parent=TE_BASE 11;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	391704	394703	.	.	.	ID=LTR LEFT 11-0;Parent=TE_BASE 11;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	382366	386025	.	.	.	ID=TE_BASE 12;annot=NA;name=TE_BASE 12;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	382366	386025	.	.	.	ID=TE 12-0;Parent=TE_BASE 12;name=TE 12;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	385023	385040	.	.	.	ID=PBS 12;Parent=TE_BASE 12;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	383406	383420	.	.	.	ID=PPT 12;Parent=TE_BASE 12;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	385043	386025	.	.	.	ID=LTR RIGHT 12-0;Parent=TE_BASE 12;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	382366	383334	.	.	.	ID=LTR LEFT 12-0;Parent=TE_BASE 12;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	382362	382365	.	.	.	ID=TSR LEFT 12;Parent=TE_BASE 12;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	386026	386029	.	.	.	ID=TSR RIGHT 12;Parent=TE_BASE 12;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	376677	382337	.	.	.	ID=TE_BASE 13;annot=NA;name=TE_BASE 13;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	376677	382337	.	.	.	ID=TE 13-0;Parent=TE_BASE 13;name=TE 13;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	382187	382203	.	.	.	ID=PBS 13;Parent=TE_BASE 13;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	376784	376798	.	.	.	ID=PPT 13;Parent=TE_BASE 13;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	382286	382337	.	.	.	ID=LTR RIGHT 13-0;Parent=TE_BASE 13;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	376677	376728	.	.	.	ID=LTR LEFT 13-0;Parent=TE_BASE 13;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	339173	348670	.	.	.	ID=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 14;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	339173	348670	.	.	.	ID=TE 14-0;Parent=TE_BASE 14;name=TE 14;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	341418	341820	.	-	.	ID=DOMAIN 14-0-0;Parent=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	342105	342828	.	-	.	ID=DOMAIN 14-1-0;Parent=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	343509	344082	.	-	.	ID=DOMAIN 14-2-0;Parent=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	344312	344555	.	-	.	ID=DOMAIN 14-3-0;Parent=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	346331	346898	.	-	.	ID=DOMAIN 14-4-0;Parent=TE_BASE 14;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	347315	347333	.	.	.	ID=PBS 14;Parent=TE_BASE 14;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	340525	340539	.	.	.	ID=PPT 14;Parent=TE_BASE 14;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	347338	348670	.	.	.	ID=LTR LEFT 14-0;Parent=TE_BASE 14;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	339173	340525	.	.	.	ID=LTR RIGHT 14-0;Parent=TE_BASE 14;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	339168	339172	.	.	.	ID=TSR RIGHT 14;Parent=TE_BASE 14;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	348671	348675	.	.	.	ID=TSR LEFT 14;Parent=TE_BASE 14;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	307143	315005	.	.	.	ID=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork;name=TE_BASE 15;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	307143	315005	.	.	.	ID=TE 15-0;Parent=TE_BASE 15;name=TE 15;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	308497	308905	.	-	.	ID=DOMAIN 15-0-0;Parent=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork RNaseH_tork;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	309214	309946	.	-	.	ID=DOMAIN 15-1-0;Parent=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork RT_tork;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	310426	311068	.	-	.	ID=DOMAIN 15-2-0;Parent=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork INT_tork;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	311236	311395	.	-	.	ID=DOMAIN 15-3-0;Parent=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork AP_tork;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	311596	312097	.	-	.	ID=DOMAIN 15-4-0;Parent=TE_BASE 15;annot=Class_I::LTR::Ty1/copia::Tork GAG_tork;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	313717	313736	.	.	.	ID=PBS 15;Parent=TE_BASE 15;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	308412	308426	.	.	.	ID=PPT 15;Parent=TE_BASE 15;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	313739	315005	.	.	.	ID=LTR LEFT 15-0;Parent=TE_BASE 15;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	307143	308411	.	.	.	ID=LTR RIGHT 15-0;Parent=TE_BASE 15;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	307138	307142	.	.	.	ID=TSR RIGHT 15;Parent=TE_BASE 15;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	315006	315010	.	.	.	ID=TSR LEFT 15;Parent=TE_BASE 15;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	289964	298923	.	.	.	ID=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 16;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	289964	298923	.	.	.	ID=TE 16-0;Parent=TE_BASE 16;name=TE 16;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	292190	292592	.	-	.	ID=DOMAIN 16-0-0;Parent=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	292877	293600	.	-	.	ID=DOMAIN 16-1-0;Parent=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	294281	294938	.	-	.	ID=DOMAIN 16-2-0;Parent=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	295085	295325	.	-	.	ID=DOMAIN 16-3-0;Parent=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	296813	297647	.	-	.	ID=DOMAIN 16-4-0;Parent=TE_BASE 16;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	298040	298059	.	.	.	ID=PBS 16;Parent=TE_BASE 16;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	291093	291107	.	.	.	ID=PPT 16;Parent=TE_BASE 16;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	298063	298923	.	.	.	ID=LTR LEFT 16-0;Parent=TE_BASE 16;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	289964	291069	.	.	.	ID=LTR RIGHT 16-0;Parent=TE_BASE 16;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	275820	301814	.	.	.	ID=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 17;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	275820	289964	.	.	.	ID=TE 17-0;Parent=TE_BASE 17;name=TE 17;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	298923	301814	.	.	.	ID=TE 17-1;Parent=TE_BASE 17;name=TE 17;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	281152	281656	.	-	.	ID=DOMAIN 17-0-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	284760	285123	.	-	.	ID=DOMAIN 17-1-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	285168	285477	.	-	.	ID=DOMAIN 17-2-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	285727	286339	.	-	.	ID=DOMAIN 17-3-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	286835	287075	.	-	.	ID=DOMAIN 17-4-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	289531	289858	.	-	.	ID=DOMAIN 17-5-0;Parent=TE_BASE 17;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	300478	300492	.	.	.	ID=PBS 17;Parent=TE_BASE 17;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	277092	277106	.	.	.	ID=PPT 17;Parent=TE_BASE 17;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	300497	301814	.	.	.	ID=LTR LEFT 17-0;Parent=TE_BASE 17;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	275820	277049	.	.	.	ID=LTR RIGHT 17-0;Parent=TE_BASE 17;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	275815	275819	.	.	.	ID=TSR RIGHT 17;Parent=TE_BASE 17;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	301815	301819	.	.	.	ID=TSR LEFT 17;Parent=TE_BASE 17;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	273236	306393	.	.	.	ID=TE_BASE 18;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 18;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	273236	275820	.	.	.	ID=TE 18-0;Parent=TE_BASE 18;name=TE 18;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	301814	306393	.	.	.	ID=TE 18-1;Parent=TE_BASE 18;name=TE 18;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	304752	305262	.	-	.	ID=DOMAIN 18-0-0;Parent=TE_BASE 18;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	273926	273946	.	.	.	ID=PBS 18;Parent=TE_BASE 18;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	305728	305742	.	.	.	ID=PPT 18;Parent=TE_BASE 18;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	305763	306393	.	.	.	ID=LTR LEFT 18-0;Parent=TE_BASE 18;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	273236	273866	.	.	.	ID=LTR RIGHT 18-0;Parent=TE_BASE 18;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	273231	273235	.	.	.	ID=TSR RIGHT 18;Parent=TE_BASE 18;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	306394	306398	.	.	.	ID=TSR LEFT 18;Parent=TE_BASE 18;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	251278	263296	.	.	.	ID=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 19;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	251278	263296	.	.	.	ID=TE 19-0;Parent=TE_BASE 19;name=TE 19;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	254247	254799	.	+	.	ID=DOMAIN 19-0-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	255333	255660	.	+	.	ID=DOMAIN 19-1-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	255832	255895	.	+	.	ID=DOMAIN 19-2-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	256030	257022	.	+	.	ID=DOMAIN 19-3-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	257299	257662	.	+	.	ID=DOMAIN 19-4-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	258013	259245	.	+	.	ID=DOMAIN 19-5-0;Parent=TE_BASE 19;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	251808	251825	.	.	.	ID=PBS 19;Parent=TE_BASE 19;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	262748	262762	.	.	.	ID=PPT 19;Parent=TE_BASE 19;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	262806	263296	.	.	.	ID=LTR RIGHT 19-0;Parent=TE_BASE 19;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	251278	251769	.	.	.	ID=LTR LEFT 19-0;Parent=TE_BASE 19;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	243073	251270	.	.	.	ID=TE_BASE 20;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 20;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	243073	251270	.	.	.	ID=TE 20-0;Parent=TE_BASE 20;name=TE 20;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	246389	247040	.	-	.	ID=DOMAIN 20-0-0;Parent=TE_BASE 20;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	247561	247885	.	-	.	ID=DOMAIN 20-1-0;Parent=TE_BASE 20;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	248622	249446	.	-	.	ID=DOMAIN 20-2-0;Parent=TE_BASE 20;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	250915	250934	.	.	.	ID=PBS 20;Parent=TE_BASE 20;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	243350	243364	.	.	.	ID=PPT 20;Parent=TE_BASE 20;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	250967	251270	.	.	.	ID=LTR LEFT 20-0;Parent=TE_BASE 20;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	243073	243324	.	.	.	ID=LTR RIGHT 20-0;Parent=TE_BASE 20;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	242848	318182	.	.	.	ID=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	242848	243073	.	.	.	ID=TE 21-0;Parent=TE_BASE 21;name=TE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	251270	251278	.	.	.	ID=TE 21-1;Parent=TE_BASE 21;name=TE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	263296	273236	.	.	.	ID=TE 21-2;Parent=TE_BASE 21;name=TE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	306393	307143	.	.	.	ID=TE 21-3;Parent=TE_BASE 21;name=TE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	315005	318182	.	.	.	ID=TE 21-4;Parent=TE_BASE 21;name=TE 21;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	270459	271494	.	-	.	ID=DOMAIN 21-0-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	271824	272187	.	-	.	ID=DOMAIN 21-1-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	272232	272598	.	-	.	ID=DOMAIN 21-2-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	272766	273236	.	-	.	ID=DOMAIN 21-3-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	306393	306595	.	-	.	ID=DOMAIN 21-3-1;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	307039	307143	.	-	.	ID=DOMAIN 21-4-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	315005	315234	.	-	.	ID=DOMAIN 21-4-1;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	315609	316317	.	-	.	ID=DOMAIN 21-5-0;Parent=TE_BASE 21;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	317534	317548	.	.	.	ID=PBS 21;Parent=TE_BASE 21;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	317553	318182	.	.	.	ID=LTR LEFT 21-0;Parent=TE_BASE 21;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	242848	243073	.	.	.	ID=LTR RIGHT 21-0;Parent=TE_BASE 21;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	251270	251278	.	.	.	ID=LTR RIGHT 21-1;Parent=TE_BASE 21;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	263296	263692	.	.	.	ID=LTR RIGHT 21-2;Parent=TE_BASE 21;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	242843	242847	.	.	.	ID=TSR RIGHT 21;Parent=TE_BASE 21;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	318183	318187	.	.	.	ID=TSR LEFT 21;Parent=TE_BASE 21;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	223282	231561	.	.	.	ID=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 22;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	223282	231561	.	.	.	ID=TE 22-0;Parent=TE_BASE 22;name=TE 22;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	224536	224887	.	-	.	ID=DOMAIN 22-0-0;Parent=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	225172	225895	.	-	.	ID=DOMAIN 22-1-0;Parent=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	226540	227188	.	-	.	ID=DOMAIN 22-2-0;Parent=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	227341	227584	.	-	.	ID=DOMAIN 22-3-0;Parent=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	229351	229894	.	-	.	ID=DOMAIN 22-4-0;Parent=TE_BASE 22;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	231181	231199	.	.	.	ID=PBS 22;Parent=TE_BASE 22;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	223622	223636	.	.	.	ID=PPT 22;Parent=TE_BASE 22;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	231203	231561	.	.	.	ID=LTR LEFT 22-0;Parent=TE_BASE 22;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	223282	223622	.	.	.	ID=LTR RIGHT 22-0;Parent=TE_BASE 22;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	210294	221795	.	.	.	ID=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=TE_BASE 23;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	210294	221795	.	.	.	ID=TE 23-0;Parent=TE_BASE 23;name=TE 23;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	211667	211925	.	+	.	ID=DOMAIN 23-0-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand GAG_tat;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	212803	213133	.	+	.	ID=DOMAIN 23-1-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand AP_tat;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	213615	214221	.	+	.	ID=DOMAIN 23-2-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RT_tat;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	214377	214728	.	+	.	ID=DOMAIN 23-3-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand RNaseH_tat;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	214782	215145	.	+	.	ID=DOMAIN 23-4-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	215492	216041	.	+	.	ID=DOMAIN 23-5-0;Parent=TE_BASE 23;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand INT_tat;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	210772	210791	.	.	.	ID=PBS 23;Parent=TE_BASE 23;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	221243	221257	.	.	.	ID=PPT 23;Parent=TE_BASE 23;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	221322	221795	.	.	.	ID=LTR RIGHT 23-0;Parent=TE_BASE 23;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	210294	210767	.	.	.	ID=LTR LEFT 23-0;Parent=TE_BASE 23;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	210289	210293	.	.	.	ID=TSR LEFT 23;Parent=TE_BASE 23;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	221796	221800	.	.	.	ID=TSR RIGHT 23;Parent=TE_BASE 23;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	195305	204562	.	.	.	ID=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 24;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	195305	204562	.	.	.	ID=TE 24-0;Parent=TE_BASE 24;name=TE 24;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	197397	197799	.	-	.	ID=DOMAIN 24-0-0;Parent=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	198084	198807	.	-	.	ID=DOMAIN 24-1-0;Parent=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	199488	200145	.	-	.	ID=DOMAIN 24-2-0;Parent=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	200292	200535	.	-	.	ID=DOMAIN 24-3-0;Parent=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	202024	202828	.	-	.	ID=DOMAIN 24-4-0;Parent=TE_BASE 24;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	203296	203314	.	.	.	ID=PBS 24;Parent=TE_BASE 24;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	196552	196566	.	.	.	ID=PPT 24;Parent=TE_BASE 24;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	203318	204562	.	.	.	ID=LTR LEFT 24-0;Parent=TE_BASE 24;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	195305	196552	.	.	.	ID=LTR RIGHT 24-0;Parent=TE_BASE 24;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	195300	195304	.	.	.	ID=TSR RIGHT 24;Parent=TE_BASE 24;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	204563	204567	.	.	.	ID=TSR LEFT 24;Parent=TE_BASE 24;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	190788	208693	.	.	.	ID=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 25;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	190788	195305	.	.	.	ID=TE 25-0;Parent=TE_BASE 25;name=TE 25;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	204562	208693	.	.	.	ID=TE 25-1;Parent=TE_BASE 25;name=TE 25;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	192421	192820	.	+	.	ID=DOMAIN 25-0-0;Parent=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	195037	195280	.	+	.	ID=DOMAIN 25-1-0;Parent=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	204690	205347	.	+	.	ID=DOMAIN 25-2-0;Parent=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	205983	206706	.	+	.	ID=DOMAIN 25-3-0;Parent=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	206997	207451	.	+	.	ID=DOMAIN 25-4-0;Parent=TE_BASE 25;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	208352	208366	.	.	.	ID=PPT 25;Parent=TE_BASE 25;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	208366	208693	.	.	.	ID=LTR RIGHT 25-0;Parent=TE_BASE 25;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	190788	191129	.	.	.	ID=LTR LEFT 25-0;Parent=TE_BASE 25;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	181976	208940	.	.	.	ID=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 26;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	181976	190788	.	.	.	ID=TE 26-0;Parent=TE_BASE 26;name=TE 26;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	208693	208940	.	.	.	ID=TE 26-1;Parent=TE_BASE 26;name=TE 26;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	183830	184676	.	+	.	ID=DOMAIN 26-0-0;Parent=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	186180	186423	.	+	.	ID=DOMAIN 26-1-0;Parent=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	186570	187227	.	+	.	ID=DOMAIN 26-2-0;Parent=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	187908	188631	.	+	.	ID=DOMAIN 26-3-0;Parent=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	188916	189318	.	+	.	ID=DOMAIN 26-4-0;Parent=TE_BASE 26;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	182919	182937	.	.	.	ID=PBS 26;Parent=TE_BASE 26;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	190171	190185	.	.	.	ID=PPT 26;Parent=TE_BASE 26;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	190185	190788	.	.	.	ID=LTR RIGHT 26-0;Parent=TE_BASE 26;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	208693	208940	.	.	.	ID=LTR RIGHT 26-1;Parent=TE_BASE 26;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	181976	182853	.	.	.	ID=LTR LEFT 26-0;Parent=TE_BASE 26;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	176543	178944	.	.	.	ID=TE_BASE 27;annot=NA;name=TE_BASE 27;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	176543	178944	.	.	.	ID=TE 27-0;Parent=TE_BASE 27;name=TE 27;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	178585	178604	.	.	.	ID=PBS 27;Parent=TE_BASE 27;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	176810	176824	.	.	.	ID=PPT 27;Parent=TE_BASE 27;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	178677	178944	.	.	.	ID=LTR RIGHT 27-0;Parent=TE_BASE 27;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	176543	176810	.	.	.	ID=LTR LEFT 27-0;Parent=TE_BASE 27;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	158170	161116	.	.	.	ID=TE_BASE 28;annot=NA;name=TE_BASE 28;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	158170	161116	.	.	.	ID=TE 28-0;Parent=TE_BASE 28;name=TE 28;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	160230	161116	.	.	.	ID=LTR RIGHT 28-0;Parent=TE_BASE 28;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	158170	159055	.	.	.	ID=LTR LEFT 28-0;Parent=TE_BASE 28;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	157340	164694	.	.	.	ID=TE_BASE 29;annot=NA;name=TE_BASE 29;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	157340	158170	.	.	.	ID=TE 29-0;Parent=TE_BASE 29;name=TE 29;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	161116	164694	.	.	.	ID=TE 29-1;Parent=TE_BASE 29;name=TE 29;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	164220	164236	.	.	.	ID=PBS 29;Parent=TE_BASE 29;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	164304	164694	.	.	.	ID=LTR RIGHT 29-0;Parent=TE_BASE 29;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	157340	157726	.	.	.	ID=LTR LEFT 29-0;Parent=TE_BASE 29;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	142192	151530	.	.	.	ID=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 30;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	142192	151530	.	.	.	ID=TE 30-0;Parent=TE_BASE 30;name=TE 30;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	143961	144528	.	+	.	ID=DOMAIN 30-0-0;Parent=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	146350	146545	.	+	.	ID=DOMAIN 30-1-0;Parent=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	146692	147349	.	+	.	ID=DOMAIN 30-2-0;Parent=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	148030	148753	.	+	.	ID=DOMAIN 30-3-0;Parent=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	148887	149289	.	+	.	ID=DOMAIN 30-4-0;Parent=TE_BASE 30;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	143507	143525	.	.	.	ID=PBS 30;Parent=TE_BASE 30;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	150185	150199	.	.	.	ID=PPT 30;Parent=TE_BASE 30;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	150199	151530	.	.	.	ID=LTR RIGHT 30-0;Parent=TE_BASE 30;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	142192	143502	.	.	.	ID=LTR LEFT 30-0;Parent=TE_BASE 30;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	142187	142191	.	.	.	ID=TSR LEFT 30;Parent=TE_BASE 30;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	151531	151535	.	.	.	ID=TSR RIGHT 30;Parent=TE_BASE 30;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	141034	157272	.	.	.	ID=TE_BASE 31;annot=NA;name=TE_BASE 31;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	141034	142192	.	.	.	ID=TE 31-0;Parent=TE_BASE 31;name=TE 31;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	151530	157272	.	.	.	ID=TE 31-1;Parent=TE_BASE 31;name=TE 31;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	151701	151715	.	.	.	ID=PPT 31;Parent=TE_BASE 31;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	156172	157272	.	.	.	ID=LTR RIGHT 31-0;Parent=TE_BASE 31;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	141034	142192	.	.	.	ID=LTR LEFT 31-0;Parent=TE_BASE 31;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	151530	151616	.	.	.	ID=LTR LEFT 31-1;Parent=TE_BASE 31;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	127116	129504	.	.	.	ID=TE_BASE 32;annot=NA;name=TE_BASE 32;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	127116	129504	.	.	.	ID=TE 32-0;Parent=TE_BASE 32;name=TE 32;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	129121	129135	.	.	.	ID=PPT 32;Parent=TE_BASE 32;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	129135	129504	.	.	.	ID=LTR RIGHT 32-0;Parent=TE_BASE 32;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	127116	127483	.	.	.	ID=LTR LEFT 32-0;Parent=TE_BASE 32;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	108182	129606	.	.	.	ID=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 33;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	108182	127116	.	.	.	ID=TE 33-0;Parent=TE_BASE 33;name=TE 33;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	129504	129606	.	.	.	ID=TE 33-1;Parent=TE_BASE 33;name=TE 33;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	109713	110352	.	+	.	ID=DOMAIN 33-0-0;Parent=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE GAG_sire;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	117968	118211	.	+	.	ID=DOMAIN 33-1-0;Parent=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	118364	119021	.	+	.	ID=DOMAIN 33-2-0;Parent=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	119687	120413	.	+	.	ID=DOMAIN 33-3-0;Parent=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	120732	121101	.	+	.	ID=DOMAIN 33-4-0;Parent=TE_BASE 33;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	109687	109703	.	.	.	ID=PBS 33;Parent=TE_BASE 33;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	125783	125797	.	.	.	ID=PPT 33;Parent=TE_BASE 33;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	125797	127116	.	.	.	ID=LTR RIGHT 33-0;Parent=TE_BASE 33;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	129504	129606	.	.	.	ID=LTR RIGHT 33-1;Parent=TE_BASE 33;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	108182	109637	.	.	.	ID=LTR LEFT 33-0;Parent=TE_BASE 33;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	108177	108181	.	.	.	ID=TSR LEFT 33;Parent=TE_BASE 33;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	129607	129611	.	.	.	ID=TSR RIGHT 33;Parent=TE_BASE 33;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	92068	97678	.	.	.	ID=TE_BASE 34;annot=NA;name=TE_BASE 34;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	92068	97678	.	.	.	ID=TE 34-0;Parent=TE_BASE 34;name=TE 34;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	96741	96755	.	.	.	ID=PPT 34;Parent=TE_BASE 34;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	96827	97678	.	.	.	ID=LTR RIGHT 34-0;Parent=TE_BASE 34;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	92068	92924	.	.	.	ID=LTR LEFT 34-0;Parent=TE_BASE 34;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	87019	130477	.	.	.	ID=TE_BASE 35;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 35;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	87019	92068	.	.	.	ID=TE 35-0;Parent=TE_BASE 35;name=TE 35;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	97678	108182	.	.	.	ID=TE 35-1;Parent=TE_BASE 35;name=TE 35;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	129606	130477	.	.	.	ID=TE 35-2;Parent=TE_BASE 35;name=TE 35;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	89407	90163	.	+	.	ID=DOMAIN 35-0-0;Parent=TE_BASE 35;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	98117	98384	.	+	.	ID=DOMAIN 35-1-0;Parent=TE_BASE 35;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	99346	100021	.	-	.	ID=DOMAIN 35-2-0;Parent=TE_BASE 35;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RT_crm;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	102947	103040	.	-	.	ID=DOMAIN 35-3-0;Parent=TE_BASE 35;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=CHDCR;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	108067	108090	.	.	.	ID=PBS 35;Parent=TE_BASE 35;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	87980	87994	.	.	.	ID=PPT 35;Parent=TE_BASE 35;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	108125	108182	.	.	.	ID=LTR LEFT 35-0;Parent=TE_BASE 35;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	129606	130477	.	.	.	ID=LTR LEFT 35-1;Parent=TE_BASE 35;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	87019	87946	.	.	.	ID=LTR RIGHT 35-0;Parent=TE_BASE 35;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	75440	81818	.	.	.	ID=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 36;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	75440	81818	.	.	.	ID=TE 36-0;Parent=TE_BASE 36;name=TE 36;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	76055	76832	.	-	.	ID=DOMAIN 36-0-0;Parent=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	77299	77650	.	-	.	ID=DOMAIN 36-1-0;Parent=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RNaseH_crm;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	77845	77965	.	-	.	ID=DOMAIN 36-2-0;Parent=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RT_crm;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	78436	78703	.	-	.	ID=DOMAIN 36-3-0;Parent=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	78963	79671	.	-	.	ID=DOMAIN 36-4-0;Parent=TE_BASE 36;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	81223	81244	.	.	.	ID=PBS 36;Parent=TE_BASE 36;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	76008	76022	.	.	.	ID=PPT 36;Parent=TE_BASE 36;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	81249	81818	.	.	.	ID=LTR LEFT 36-0;Parent=TE_BASE 36;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	75440	76008	.	.	.	ID=LTR RIGHT 36-0;Parent=TE_BASE 36;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	75435	75439	.	.	.	ID=TSR RIGHT 36;Parent=TE_BASE 36;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	81819	81823	.	.	.	ID=TSR LEFT 36;Parent=TE_BASE 36;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	68982	85643	.	.	.	ID=TE_BASE 37;annot=NA;name=TE_BASE 37;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	68982	75440	.	.	.	ID=TE 37-0;Parent=TE_BASE 37;name=TE 37;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	81818	85643	.	.	.	ID=TE 37-1;Parent=TE_BASE 37;name=TE 37;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	84895	84914	.	.	.	ID=PBS 37;Parent=TE_BASE 37;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	69673	69687	.	.	.	ID=PPT 37;Parent=TE_BASE 37;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	84973	85643	.	.	.	ID=LTR RIGHT 37-0;Parent=TE_BASE 37;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	68982	69652	.	.	.	ID=LTR LEFT 37-0;Parent=TE_BASE 37;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	68977	68981	.	.	.	ID=TSR LEFT 37;Parent=TE_BASE 37;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	85644	85648	.	.	.	ID=TSR RIGHT 37;Parent=TE_BASE 37;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	62136	68534	.	.	.	ID=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 38;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	62136	68534	.	.	.	ID=TE 38-0;Parent=TE_BASE 38;name=TE 38;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	64166	64697	.	+	.	ID=DOMAIN 38-0-0;Parent=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	65128	65299	.	+	.	ID=DOMAIN 38-1-0;Parent=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	65839	66451	.	+	.	ID=DOMAIN 38-2-0;Parent=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RT_crm;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	66586	66667	.	+	.	ID=DOMAIN 38-3-0;Parent=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RNaseH_crm;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	66918	67920	.	+	.	ID=DOMAIN 38-4-0;Parent=TE_BASE 38;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	62638	62659	.	.	.	ID=PBS 38;Parent=TE_BASE 38;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	67955	67969	.	.	.	ID=PPT 38;Parent=TE_BASE 38;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	68038	68534	.	.	.	ID=LTR RIGHT 38-0;Parent=TE_BASE 38;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	62136	62633	.	.	.	ID=LTR LEFT 38-0;Parent=TE_BASE 38;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	53315	60977	.	.	.	ID=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 39;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	53315	60977	.	.	.	ID=TE 39-0;Parent=TE_BASE 39;name=TE 39;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	54525	55386	.	-	.	ID=DOMAIN 39-0-0;Parent=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	55632	55983	.	-	.	ID=DOMAIN 39-1-0;Parent=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RNaseH_crm;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	56118	56793	.	-	.	ID=DOMAIN 39-2-0;Parent=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RT_crm;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	57267	57534	.	-	.	ID=DOMAIN 39-3-0;Parent=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	57804	58578	.	-	.	ID=DOMAIN 39-4-0;Parent=TE_BASE 39;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	60023	60042	.	.	.	ID=PBS 39;Parent=TE_BASE 39;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	54245	54259	.	.	.	ID=PPT 39;Parent=TE_BASE 39;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	60047	60977	.	.	.	ID=LTR LEFT 39-0;Parent=TE_BASE 39;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	53315	54245	.	.	.	ID=LTR RIGHT 39-0;Parent=TE_BASE 39;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	30075	39052	.	.	.	ID=TE_BASE 40;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 40;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	30075	39052	.	.	.	ID=TE 40-0;Parent=TE_BASE 40;name=TE 40;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	31098	32055	.	-	.	ID=DOMAIN 40-0-0;Parent=TE_BASE 40;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	32393	32612	.	+	.	ID=DOMAIN 40-1-0;Parent=TE_BASE 40;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	35874	36648	.	-	.	ID=DOMAIN 40-2-0;Parent=TE_BASE 40;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	38093	38112	.	.	.	ID=PBS 40;Parent=TE_BASE 40;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	31005	31019	.	.	.	ID=PPT 40;Parent=TE_BASE 40;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	38117	39052	.	.	.	ID=LTR LEFT 40-0;Parent=TE_BASE 40;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	30075	31005	.	.	.	ID=LTR RIGHT 40-0;Parent=TE_BASE 40;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	30070	30074	.	.	.	ID=TSR RIGHT 40;Parent=TE_BASE 40;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	39053	39057	.	.	.	ID=TSR LEFT 40;Parent=TE_BASE 40;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	6356	13245	.	.	.	ID=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 41;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	6356	13245	.	.	.	ID=TE 41-0;Parent=TE_BASE 41;name=TE 41;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	8524	8800	.	+	.	ID=DOMAIN 41-0-0;Parent=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM GAG_crm;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	9501	9753	.	+	.	ID=DOMAIN 41-1-0;Parent=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM AP_crm;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	10218	10893	.	+	.	ID=DOMAIN 41-2-0;Parent=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RT_crm;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	11028	11379	.	+	.	ID=DOMAIN 41-3-0;Parent=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM RNaseH_crm;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	11625	12627	.	+	.	ID=DOMAIN 41-4-0;Parent=TE_BASE 41;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	6933	6954	.	.	.	ID=PBS 41;Parent=TE_BASE 41;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	12659	12673	.	.	.	ID=PPT 41;Parent=TE_BASE 41;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	12673	13245	.	.	.	ID=LTR RIGHT 41-0;Parent=TE_BASE 41;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	6356	6928	.	.	.	ID=LTR LEFT 41-0;Parent=TE_BASE 41;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	6351	6355	.	.	.	ID=TSR LEFT 41;Parent=TE_BASE 41;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	13246	13250	.	.	.	ID=TSR RIGHT 41;Parent=TE_BASE 41;name=tsr right;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	1999	22385	.	.	.	ID=TE_BASE 42;annot=Class_I::LTR::Ty1/copia::SIRE;name=TE_BASE 42;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	1999	6356	.	.	.	ID=TE 42-0;Parent=TE_BASE 42;name=TE 42;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	13245	22385	.	.	.	ID=TE 42-1;Parent=TE_BASE 42;name=TE 42;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	5674	6076	.	-	.	ID=DOMAIN 42-0-0;Parent=TE_BASE 42;annot=Class_I::LTR::Ty1/copia::SIRE RNaseH_sire;name=RH;color=#fc4e2a
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	13256	13979	.	-	.	ID=DOMAIN 42-1-0;Parent=TE_BASE 42;annot=Class_I::LTR::Ty1/copia::SIRE RT_sire;name=RT;color=#feb24c
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	14672	15317	.	-	.	ID=DOMAIN 42-2-0;Parent=TE_BASE 42;annot=Class_I::LTR::Ty1/copia::SIRE INT_sire;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	15460	15691	.	-	.	ID=DOMAIN 42-3-0;Parent=TE_BASE 42;annot=Class_I::LTR::Ty1/copia::SIRE AP_sire;name=PROT;color=#ffeda0
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	21400	21423	.	.	.	ID=PBS 42;Parent=TE_BASE 42;name=ppt;color=#41ab5d
+10|0-2Mb_part1:400000|1000000	nested-nester	RR_tract	2970	2984	.	.	.	ID=PPT 42;Parent=TE_BASE 42;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	21455	22385	.	.	.	ID=LTR LEFT 42-0;Parent=TE_BASE 42;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	1999	2929	.	.	.	ID=LTR RIGHT 42-0;Parent=TE_BASE 42;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	nested_repeat	18	25959	.	.	.	ID=TE_BASE 43;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=TE_BASE 43;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	18	1999	.	.	.	ID=TE 43-0;Parent=TE_BASE 43;name=TE 43;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	repeat_fragment	22385	25959	.	.	.	ID=TE 43-1;Parent=TE_BASE 43;name=TE 43;color=#a9a9a9
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	1706	1952	.	+	.	ID=DOMAIN 43-0-0;Parent=TE_BASE 43;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM INT_crm;name=INT;color=#b10026
+10|0-2Mb_part1:400000|1000000	nested-nester	polypeptide_conserved_region	22527	23256	.	+	.	ID=DOMAIN 43-1-0;Parent=TE_BASE 43;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay GAG_del;name=GAG;color=#225ea8
+10|0-2Mb_part1:400000|1000000	nested-nester	primer_binding_site	24340	24358	.	.	.	ID=PBS 43;Parent=TE_BASE 43;name=pbs;color=#c7e9c0
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	24405	25959	.	.	.	ID=LTR RIGHT 43-0;Parent=TE_BASE 43;name=ltr right;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	long_terminal_repeat	18	1576	.	.	.	ID=LTR LEFT 43-0;Parent=TE_BASE 43;name=ltr left;color=#f032e6
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	13	17	.	.	.	ID=TSR LEFT 43;Parent=TE_BASE 43;name=tsr left;color=#333333
+10|0-2Mb_part1:400000|1000000	nested-nester	target_site_duplication	25960	25964	.	.	.	ID=TSR RIGHT 43;Parent=TE_BASE 43;name=tsr right;color=#333333
