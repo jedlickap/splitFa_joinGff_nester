@@ -23,7 +23,7 @@ class GFFLine:
         if ";" in attributes and "=" in attributes:
             self.attributes_dict = {rec.split("=")[0]:rec.split("=")[1] for rec in attributes.split(";")}
 
-def sort_gff(gff):
+def sort_recalc_gff(gff):
     # divide GFF into TE specific lines
     seqid = ""
     teid = ""
@@ -45,12 +45,15 @@ def sort_gff(gff):
                 te_dict[my_teid].append(line)
     # sort dict
     te_dict_sort = dict(sorted(te_dict.items(), key = lambda x: int(x[0].split("|")[1])))
-    # output sorted GFF
+    # output sorted GFF and recalc coord
     out_name = gff.replace(".gff","_sorted.gff")
     with open(out_name, "w") as out:
         for my_teid in te_dict_sort:
+            bps2add = int(my_teid.split("|")[0].split("_")[-2])
             for line in te_dict_sort[my_teid]:
-                out.write(line)
+                ll = line.split("\t")
+                ll[0], ll[3], ll[4] = ll[0].split("_")[0], str(int(ll[3]) + bps2add), str(int(ll[4]) + bps2add)
+                out.write("\t".join(ll))                
     return out_name
 
 """

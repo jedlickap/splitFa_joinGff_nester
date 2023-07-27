@@ -51,4 +51,4 @@ class Fasta:
         out_fa_path = outdir + fa_pref + "_split.fa"
         handle = open(out_fa_path,"w")
         SeqIO.write(rec_list,handle,"fasta")
-        # return out_fa_path
+        return out_fa_path
