@@ -14,7 +14,7 @@ class Fasta:
                          seq_object.id +
                          "_part" +
                          str(subseq_cnt) +
-                         f":{str(start)}|{str(end)}",
+                         f"_{str(start)}_{str(end)}",
                          "",
                          "")
     
