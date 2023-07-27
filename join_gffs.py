@@ -50,17 +50,16 @@ def gff2teDict(gff):
     with open(gff) as gf:
         for line in gf:
             if '\tnested_repeat\t' in line:
-                # print(line)
                 gffObj = GFFLine(line)
                 my_teid = f"{gffObj.seqid}|{gffObj.start}|{gffObj.end}"
                 teid = gffObj.attributes_dict['ID']
                 seqid = gffObj.seqid
-                # print(teid,'\n',gffObj.attributes_dict)
                 te_dict[my_teid] = []
                 te_dict[my_teid].append(line)
             elif seqid + "\t" in line and f"Parent={teid};" in line:
                 te_dict[my_teid].append(line)
     return te_dict
+
 def find_intersections(aList, bList):
     out_list = []
     for teid in aList:
