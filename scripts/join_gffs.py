@@ -1,7 +1,7 @@
 import os
 from Bio import SeqIO
 from file_read_backwards import FileReadBackwards
-from sort_recalc_gff import sort_recalc_gff
+from scripts.sort_recalc_gff import sort_recalc_gff
 
 class GFFLine:
     """

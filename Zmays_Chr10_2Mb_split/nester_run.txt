@@ -1,9 +1,0 @@
-$ nested-nester Zmays_Chr10_2Mb_split.fa 
-Processing 2Mb_part0_0_500000
-Processing 2Mb_part0_0_500000: DONE [0:01:05.162882]
-Processing 2Mb_part1_400000_1000000
-Processing 2Mb_part1_400000_1000000: DONE [0:00:51.009940]
-Processing 2Mb_part2_900000_2000000
-Processing 2Mb_part2_900000_2000000: DONE [0:01:36.362839]
-Total time: 0:03:32.542519
-Number of errors: 0
