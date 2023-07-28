@@ -1,9 +1,28 @@
 import sys
 import os
 import subprocess
+import argparse
 from scripts.split_fasta import Fasta
 from scripts.join_gffs import join_gffs
 
+def args_from_parser():
+    parser = argparse.ArgumentParser(
+        description='''Script performs:\n(i) split of multisequence fasta file
+        based on defined number of subsequences and overlap size\n
+        (ii) TE-greedy-nester run on splitted sequence\n
+        (iii) Sort, coordinates recarcultions and joining into one GFF for original unspliced sequence 
+        ''')
+
+    requiredNamed = parser.add_argument_group('required named arguments')
+    requiredNamed.add_argument(
+        "-fa", "--fasta", type=str, required=True,
+        help='Input FASTA file'
+        )
+    parser.add_argument('-subseq_nr', '--number_of_subseqs', type=int,
+                        default=2)
+    parser.add_argument('-overlap', '--subseq_overlap', type=int,
+                        default=100_000)
+    return parser.parse_args()
 """
 argparse:
 subseq_nr = 2
