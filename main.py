@@ -35,8 +35,11 @@ Steps:
 4. Join GFFs -> '*joined.gff'
 """
 def main():
+    args = args_from_parser()
+    fa, subseq_nr, overlap_size = args.fasta, args.number_of_subseqs, args.subseq_overlap
+    
     # 1. split FASTA
-    faObj = Fasta(sys.argv[1], 4)
+    faObj = Fasta(fa, subseq_nr, overlap_size)
     faObj.split_fasta()
     fa_path = faObj.split_fasta()
 
