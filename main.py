@@ -23,17 +23,7 @@ def args_from_parser():
     parser.add_argument('-overlap', '--subseq_overlap', type=int,
                         default=100_000)
     return parser.parse_args()
-"""
-argparse:
-subseq_nr = 2
-overlap = 100_00
 
-Steps:
-1. split FASTA -> fa_path = "Zmays_Chr10_2Mb_split/Zmays_Chr10_2Mb_split.fa"
-2. Run Nester -> nester_output = fa_path.split("/")[0] + "/data"
-3. Sort *cols.gff -> gff_sorted NOTE: could be run within join step
-4. Join GFFs -> '*joined.gff'
-"""
 def main():
     args = args_from_parser()
     fa, subseq_nr, overlap_size = args.fasta, args.number_of_subseqs, args.subseq_overlap
