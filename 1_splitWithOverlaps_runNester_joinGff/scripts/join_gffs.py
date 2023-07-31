@@ -1,7 +1,13 @@
 import os
 from Bio import SeqIO
-from file_read_backwards import FileReadBackwards
-from scripts.sort_recalc_gff import sort_recalc_gff
+
+"""
+Program takes nester output GFF and (i) sorts TEs within
+file from 5 prime to 3 prime end in sequence;
+(ii) recalculates coordinates; ane (iii) join them
+into one GFF.
+! Important: no TE numbering recalculation (yet) !
+"""
 
 class GFFLine:
     """
@@ -31,6 +37,39 @@ def gff_paths2list(fa_heads_list, fa_path):
                 full_gff_path = split_folder+'/data/'+p+'/'+gff
                 gff_list.append(full_gff_path)
     return gff_list
+
+def sort_recalc_gff(gff):
+    # divide GFF into TE specific lines
+    seqid = ""
+    teid = ""
+    my_teid = ""
+    gffObj = lambda: None
+    te_dict = {}
+    with open(gff) as gf:
+        for line in gf:
+            if '\tnested_repeat\t' in line:
+                # print(line)
+                gffObj = GFFLine(line)
+                my_teid = f"{gffObj.seqid}|{gffObj.start}|{gffObj.end}"
+                teid = gffObj.attributes_dict['ID']
+                seqid = gffObj.seqid
+                # print(teid,'\n',gffObj.attributes_dict)
+                te_dict[my_teid] = []
+                te_dict[my_teid].append(line)
+            elif seqid + "\t" in line and f"Parent={teid};" in line:
+                te_dict[my_teid].append(line)
+    # sort dict
+    te_dict_sort = dict(sorted(te_dict.items(), key = lambda x: int(x[0].split("|")[1])))
+    # output sorted GFF and recalc coord
+    out_name = gff.replace(".gff","_sorted.gff")
+    with open(out_name, "w") as out:
+        for my_teid in te_dict_sort:
+            bps2add = int(my_teid.split("|")[0].split("_")[-2])
+            for line in te_dict_sort[my_teid]:
+                ll = line.split("\t")
+                ll[0], ll[3], ll[4] = ll[0].split("_")[0], str(int(ll[3]) + bps2add), str(int(ll[4]) + bps2add)
+                out.write("\t".join(ll))                
+    return out_name
 
 def sort_gffs(gff_list):
     sorted_gffs = []
