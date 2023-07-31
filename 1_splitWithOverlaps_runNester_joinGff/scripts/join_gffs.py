@@ -114,18 +114,25 @@ def join_gffs(fa_path):
     for i, gff in enumerate(sorted_gffs[:-1]):
         if not teDictOut:
             aTeDict, bTeDict = gff2teDict(gff), gff2teDict(sorted_gffs[i+1])
-            stop_teid = find_intersections([k for k in aTeDict],[l for l in bTeDict])[0]
-            aStopIndex, bStopIndex = list(aTeDict).index(stop_teid), list(bTeDict).index(stop_teid)
-            aTeKeys, bTeKeys = [ak for ak in aTeDict][:aStopIndex],[bk for bk in bTeDict][bStopIndex:]
-            teDictOut.update({k:aTeDict[k] for k in aTeDict if k in aTeKeys})
-            teDictOut.update({k:bTeDict[k] for k in bTeDict if k in bTeKeys})
+            if find_intersections([k for k in aTeDict],[l for l in bTeDict]):
+                stop_teid = find_intersections([k for k in aTeDict],[l for l in bTeDict])[0]
+                aStopIndex, bStopIndex = list(aTeDict).index(stop_teid), list(bTeDict).index(stop_teid)
+                aTeKeys, bTeKeys = [ak for ak in aTeDict][:aStopIndex],[bk for bk in bTeDict][bStopIndex:]
+                teDictOut.update({k:aTeDict[k] for k in aTeDict if k in aTeKeys})
+                teDictOut.update({k:bTeDict[k] for k in bTeDict if k in bTeKeys})
+            else:
+                teDictOut.update(aTeDict)
+                teDictOut.update(bTeDict)
         else:
             bTeDict = gff2teDict(sorted_gffs[i+1])
-            stop_teid = find_intersections([k for k in teDictOut],[l for l in bTeDict])[0]
-            outStopIndex, bStopIndex = list(teDictOut).index(stop_teid), list(bTeDict).index(stop_teid)
-            outTeKeys, bTeKeys = [ak for ak in teDictOut][:outStopIndex],[bk for bk in bTeDict][bStopIndex:]
-            teDictOut = {k:teDictOut[k] for k in teDictOut if k in outTeKeys}
-            teDictOut.update({k:bTeDict[k] for k in bTeDict if k in bTeKeys})
+            if find_intersections([k for k in teDictOut],[l for l in bTeDict]):
+                stop_teid = find_intersections([k for k in teDictOut],[l for l in bTeDict])[0]
+                outStopIndex, bStopIndex = list(teDictOut).index(stop_teid), list(bTeDict).index(stop_teid)
+                outTeKeys, bTeKeys = [ak for ak in teDictOut][:outStopIndex],[bk for bk in bTeDict][bStopIndex:]
+                teDictOut = {k:teDictOut[k] for k in teDictOut if k in outTeKeys}
+                teDictOut.update({k:bTeDict[k] for k in bTeDict if k in bTeKeys})
+            else:
+                teDictOut.update(bTeDict)
     # write into a file            
     out_joinedGff = fa_path.split(".")[0] + "_joined.gff"
     with open(out_joinedGff,"w") as out:
