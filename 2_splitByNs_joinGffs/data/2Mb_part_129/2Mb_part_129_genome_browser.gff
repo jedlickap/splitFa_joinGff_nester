@@ -1,0 +1,13 @@
+##gff-version 3
+##sequence-region 2Mb_part_129 1 21299
+2Mb_part_129	feature	nested_repeat	4523	18230	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_129	feature	repeat_fragment	4523	18230	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_129	feature	polypeptide_conserved_region	10131	11070	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT
+2Mb_part_129	feature	polypeptide_conserved_region	11496	11859	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH
+2Mb_part_129	feature	polypeptide_conserved_region	11904	12369	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH
+2Mb_part_129	feature	polypeptide_conserved_region	12561	13083	.	-	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RT
+2Mb_part_129	feature	polypeptide_conserved_region	13617	13860	.	-	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=PROT
+2Mb_part_129	feature	long_terminal_repeat	16601	18230	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_129	feature	long_terminal_repeat	4523	6151	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_129	feature	target_site_duplication	4518	4522	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_129	feature	target_site_duplication	18231	18235	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left

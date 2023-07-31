@@ -1,0 +1,13 @@
+##gff-version 3
+2Mb_part_181	feature	tandem_repeat	14942	15000	.	.	.	ID=tandem_repeat_0;monomer_count=2.6;monomer=CCACCAGCCGCCACTAGCCCACGCCAGCAGCCGCCACTAACCCACGCCACCAGCGGCCA
+
+2Mb_part_181	feature	tandem_repeat	12477	12502	.	.	.	ID=tandem_repeat_1;monomer_count=13.0;monomer=AGAGAGAGAGAGAGAGAGAGAGAGAG
+
+2Mb_part_181	feature	tandem_repeat	6990	7041	.	.	.	ID=tandem_repeat_2;monomer_count=1.9;monomer=CTTGGCCACCACGTCGATGGGGAGGTGCTTGGCGAGCAGGTCGGCGGAGAGG
+
+2Mb_part_181	feature	tandem_repeat	4345	4411	.	.	.	ID=tandem_repeat_3;monomer_count=33.5;monomer=TATATATATATATATATATATATATATATATATATATATATATATATATATATATATATATGTATAT
+
+2Mb_part_181	feature	tandem_repeat	3521	3564	.	.	.	ID=tandem_repeat_4;monomer_count=2.1;monomer=TGGCGCACCGGACAGTGTCCGGTGGCGTACCGGACTGTCCGGTG
+
+2Mb_part_181	feature	tandem_repeat	2796	2841	.	.	.	ID=tandem_repeat_5;monomer_count=3.8;monomer=ATTTGCAAAAGGACTTTGAAAAGAATTTACAAAAGAATTTGCAAAA
+

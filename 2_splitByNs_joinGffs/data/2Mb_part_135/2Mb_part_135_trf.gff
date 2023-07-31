@@ -1,0 +1,7 @@
+##gff-version 3
+2Mb_part_135	feature	tandem_repeat	4254	4292	.	.	.	ID=tandem_repeat_0;monomer_count=2.0;monomer=GCACCGGACAGTGTCCGGTGTGCACCGGACTGTCCGGTG
+
+2Mb_part_135	feature	tandem_repeat	4148	4185	.	.	.	ID=tandem_repeat_1;monomer_count=2.0;monomer=GCACCGGACTGTCCGGTGTGCACCGGACATGTCCGGTG
+
+2Mb_part_135	feature	tandem_repeat	3927	3970	.	.	.	ID=tandem_repeat_2;monomer_count=2.1;monomer=TGGGGCACCGGACTGTCCGGTGGTGCACCGGACAGTGTCCGGTG
+

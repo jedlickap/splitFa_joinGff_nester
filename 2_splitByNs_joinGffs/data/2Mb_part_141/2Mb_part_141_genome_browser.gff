@@ -1,0 +1,24 @@
+##gff-version 3
+##sequence-region 2Mb_part_141 1 26268
+2Mb_part_141	feature	nested_repeat	9788	25064	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_141	feature	repeat_fragment	9788	25064	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_141	feature	polypeptide_conserved_region	13501	13996	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RT
+2Mb_part_141	feature	polypeptide_conserved_region	14217	14682	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH
+2Mb_part_141	feature	polypeptide_conserved_region	14745	15108	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH
+2Mb_part_141	feature	polypeptide_conserved_region	15426	16359	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT
+2Mb_part_141	feature	primer_binding_site	10422	10436	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_141	feature	RR_tract	24340	24354	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_141	feature	long_terminal_repeat	24435	25064	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_141	feature	long_terminal_repeat	9788	10417	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_141	feature	target_site_duplication	9783	9787	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left
+2Mb_part_141	feature	target_site_duplication	25065	25069	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_141	feature	nested_repeat	2297	26228	.	.	.	ID=TE_BASE 1;name=TE_BASE 1
+2Mb_part_141	feature	repeat_fragment	2297	9788	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1
+2Mb_part_141	feature	repeat_fragment	25064	26228	.	.	.	ID=TE 1-1;Parent=TE_BASE 1;name=TE 1
+2Mb_part_141	feature	polypeptide_conserved_region	4412	4790	.	-	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_141	feature	polypeptide_conserved_region	5062	5827	.	-	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_141	feature	polypeptide_conserved_region	6505	7108	.	-	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_141	feature	polypeptide_conserved_region	7300	7399	.	-	.	ID=DOMAIN 1-3-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT
+2Mb_part_141	feature	polypeptide_conserved_region	9174	9423	.	-	.	ID=DOMAIN 1-4-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG
+2Mb_part_141	feature	long_terminal_repeat	25244	26228	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left
+2Mb_part_141	feature	long_terminal_repeat	2297	3204	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right

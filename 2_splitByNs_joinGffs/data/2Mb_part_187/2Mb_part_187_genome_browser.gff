@@ -1,0 +1,16 @@
+##gff-version 3
+##sequence-region 2Mb_part_187 1 13795
+2Mb_part_187	feature	nested_repeat	3138	8277	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_187	feature	repeat_fragment	3138	8277	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_187	feature	polypeptide_conserved_region	3840	4191	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=GAG
+2Mb_part_187	feature	polypeptide_conserved_region	4708	4930	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=PROT
+2Mb_part_187	feature	polypeptide_conserved_region	5272	5791	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=RT
+2Mb_part_187	feature	polypeptide_conserved_region	5980	6415	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=RH
+2Mb_part_187	feature	polypeptide_conserved_region	6655	7570	.	+	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=INT
+2Mb_part_187	feature	polypeptide_conserved_region	7657	7867	.	+	.	ID=DOMAIN 0-5-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=CHD
+2Mb_part_187	feature	primer_binding_site	3576	3592	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_187	feature	RR_tract	7887	7901	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_187	feature	long_terminal_repeat	7901	8277	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_187	feature	long_terminal_repeat	3138	3514	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_187	feature	target_site_duplication	3134	3137	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left
+2Mb_part_187	feature	target_site_duplication	8278	8281	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right

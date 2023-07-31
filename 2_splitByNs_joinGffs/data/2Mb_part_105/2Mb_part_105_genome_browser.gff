@@ -1,0 +1,11 @@
+##gff-version 3
+##sequence-region 2Mb_part_105 1 20501
+2Mb_part_105	feature	nested_repeat	4265	13522	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_105	feature	repeat_fragment	4265	13522	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_105	feature	polypeptide_conserved_region	6369	6747	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_105	feature	polypeptide_conserved_region	7014	7779	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_105	feature	polypeptide_conserved_region	8502	9105	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_105	feature	long_terminal_repeat	12278	13522	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_105	feature	long_terminal_repeat	4265	5512	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_105	feature	target_site_duplication	4260	4264	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_105	feature	target_site_duplication	13523	13527	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left

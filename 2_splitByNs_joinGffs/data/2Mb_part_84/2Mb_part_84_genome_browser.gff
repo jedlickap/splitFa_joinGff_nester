@@ -1,0 +1,13 @@
+##gff-version 3
+##sequence-region 2Mb_part_84 1 24428
+2Mb_part_84	feature	nested_repeat	9696	16074	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_84	feature	repeat_fragment	9696	16074	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_84	feature	polypeptide_conserved_region	10419	11088	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=INT
+2Mb_part_84	feature	polypeptide_conserved_region	11555	11990	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RH
+2Mb_part_84	feature	polypeptide_conserved_region	12101	12206	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RT
+2Mb_part_84	feature	polypeptide_conserved_region	12737	12962	.	-	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=PROT
+2Mb_part_84	feature	polypeptide_conserved_region	13534	13909	.	-	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=GAG
+2Mb_part_84	feature	long_terminal_repeat	15505	16074	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_84	feature	long_terminal_repeat	9696	10264	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_84	feature	target_site_duplication	9691	9695	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_84	feature	target_site_duplication	16075	16079	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left

@@ -1,0 +1,24 @@
+##gff-version 3
+##sequence-region 2Mb_part_79 1 30607
+2Mb_part_79	feature	nested_repeat	4671	11560	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_79	feature	repeat_fragment	4671	11560	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_79	feature	polypeptide_conserved_region	6860	7109	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=GAG
+2Mb_part_79	feature	polypeptide_conserved_region	7816	8023	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=PROT
+2Mb_part_79	feature	polypeptide_conserved_region	8548	9067	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RT
+2Mb_part_79	feature	polypeptide_conserved_region	9259	9694	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RH
+2Mb_part_79	feature	polypeptide_conserved_region	9934	10834	.	+	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=INT
+2Mb_part_79	feature	primer_binding_site	5248	5269	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_79	feature	RR_tract	10974	10988	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_79	feature	long_terminal_repeat	10988	11560	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_79	feature	long_terminal_repeat	4671	5243	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_79	feature	target_site_duplication	4666	4670	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left
+2Mb_part_79	feature	target_site_duplication	11561	11565	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_79	feature	nested_repeat	314	20700	.	.	.	ID=TE_BASE 1;name=TE_BASE 1
+2Mb_part_79	feature	repeat_fragment	314	4671	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1
+2Mb_part_79	feature	repeat_fragment	11560	20700	.	.	.	ID=TE 1-1;Parent=TE_BASE 1;name=TE 1
+2Mb_part_79	feature	polypeptide_conserved_region	4001	4379	.	-	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_79	feature	polypeptide_conserved_region	4646	4671	.	-	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_79	feature	polypeptide_conserved_region	11560	12300	.	-	.	ID=DOMAIN 1-1-1;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_79	feature	polypeptide_conserved_region	13041	13629	.	-	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_79	feature	long_terminal_repeat	19770	20700	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left
+2Mb_part_79	feature	long_terminal_repeat	314	1244	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right

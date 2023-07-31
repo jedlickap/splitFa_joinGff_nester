@@ -1,0 +1,9 @@
+##gff-version 3
+##sequence-region 2Mb_part_167 1 16561
+2Mb_part_167	feature	nested_repeat	6843	14234	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_167	feature	repeat_fragment	6843	14234	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_167	feature	polypeptide_conserved_region	12632	12992	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=GAG
+2Mb_part_167	feature	primer_binding_site	7620	7641	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_167	feature	RR_tract	13478	13492	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_167	feature	long_terminal_repeat	13512	14234	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_167	feature	long_terminal_repeat	6843	7565	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right

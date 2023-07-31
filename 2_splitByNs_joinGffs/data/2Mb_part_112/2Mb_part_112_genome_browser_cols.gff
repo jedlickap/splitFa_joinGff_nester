@@ -1,0 +1,50 @@
+##gff-version 3
+##sequence-region 2Mb_part_112 1 64739
+2Mb_part_112	feature	nested_repeat	36217	54346	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	36217	54346	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_112	feature	polypeptide_conserved_region	50992	51898	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT;color=#b10026
+2Mb_part_112	feature	polypeptide_conserved_region	52899	53250	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH;color=#fc4e2a
+2Mb_part_112	feature	long_terminal_repeat	53482	54346	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	36217	37099	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+2Mb_part_112	feature	nested_repeat	20837	32245	.	.	.	ID=TE_BASE 1;name=TE_BASE 1;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	20837	32245	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1;color=#a9a9a9
+2Mb_part_112	feature	polypeptide_conserved_region	25036	25417	.	+	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=GAG;color=#225ea8
+2Mb_part_112	feature	polypeptide_conserved_region	26500	27019	.	+	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=RT;color=#feb24c
+2Mb_part_112	feature	polypeptide_conserved_region	27211	27643	.	+	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=RH;color=#fc4e2a
+2Mb_part_112	feature	polypeptide_conserved_region	27949	28840	.	+	.	ID=DOMAIN 1-3-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=INT;color=#b10026
+2Mb_part_112	feature	polypeptide_conserved_region	28963	29194	.	+	.	ID=DOMAIN 1-4-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Tekay;name=CHD;color=#a9a9a9
+2Mb_part_112	feature	primer_binding_site	23872	23890	.	.	.	ID=PBS 1;Parent=TE_BASE 1;name=pbs;color=#c7e9c0
+2Mb_part_112	feature	long_terminal_repeat	29243	32245	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	20837	23836	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left;color=#f032e6
+2Mb_part_112	feature	nested_repeat	11499	15158	.	.	.	ID=TE_BASE 2;name=TE_BASE 2;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	11499	15158	.	.	.	ID=TE 2-0;Parent=TE_BASE 2;name=TE 2;color=#a9a9a9
+2Mb_part_112	feature	primer_binding_site	14156	14173	.	.	.	ID=PBS 2;Parent=TE_BASE 2;name=pbs;color=#c7e9c0
+2Mb_part_112	feature	long_terminal_repeat	14176	15158	.	.	.	ID=LTR RIGHT 2-0;Parent=TE_BASE 2;name=ltr right;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	11499	12467	.	.	.	ID=LTR LEFT 2-0;Parent=TE_BASE 2;name=ltr left;color=#f032e6
+2Mb_part_112	feature	target_site_duplication	11495	11498	.	.	.	ID=TSR LEFT 2;Parent=TE_BASE 2;name=tsr left;color=#333333
+2Mb_part_112	feature	target_site_duplication	15159	15162	.	.	.	ID=TSR RIGHT 2;Parent=TE_BASE 2;name=tsr right;color=#333333
+2Mb_part_112	feature	nested_repeat	5810	11470	.	.	.	ID=TE_BASE 3;name=TE_BASE 3;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	5810	11470	.	.	.	ID=TE 3-0;Parent=TE_BASE 3;name=TE 3;color=#a9a9a9
+2Mb_part_112	feature	primer_binding_site	11320	11336	.	.	.	ID=PBS 3;Parent=TE_BASE 3;name=pbs;color=#c7e9c0
+2Mb_part_112	feature	long_terminal_repeat	11419	11470	.	.	.	ID=LTR RIGHT 3-0;Parent=TE_BASE 3;name=ltr right;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	5810	5861	.	.	.	ID=LTR LEFT 3-0;Parent=TE_BASE 3;name=ltr left;color=#f032e6
+2Mb_part_112	feature	nested_repeat	15173	34797	.	.	.	ID=TE_BASE 4;name=TE_BASE 4;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	15173	20837	.	.	.	ID=TE 4-0;Parent=TE_BASE 4;name=TE 4;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	32245	34797	.	.	.	ID=TE 4-1;Parent=TE_BASE 4;name=TE 4;color=#a9a9a9
+2Mb_part_112	feature	polypeptide_conserved_region	16421	16766	.	-	.	ID=DOMAIN 4-0-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH;color=#fc4e2a
+2Mb_part_112	feature	polypeptide_conserved_region	17033	17798	.	-	.	ID=DOMAIN 4-1-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT;color=#feb24c
+2Mb_part_112	feature	polypeptide_conserved_region	18476	19079	.	-	.	ID=DOMAIN 4-2-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT;color=#b10026
+2Mb_part_112	feature	polypeptide_conserved_region	19271	19481	.	-	.	ID=DOMAIN 4-3-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT;color=#a9a9a9
+2Mb_part_112	feature	polypeptide_conserved_region	32737	33019	.	-	.	ID=DOMAIN 4-4-0;Parent=TE_BASE 4;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG;color=#225ea8
+2Mb_part_112	feature	long_terminal_repeat	34439	34797	.	.	.	ID=LTR LEFT 4-0;Parent=TE_BASE 4;name=ltr left;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	15173	15513	.	.	.	ID=LTR RIGHT 4-0;Parent=TE_BASE 4;name=ltr right;color=#f032e6
+2Mb_part_112	feature	nested_repeat	4912	54357	.	.	.	ID=TE_BASE 5;name=TE_BASE 5;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	4912	5810	.	.	.	ID=TE 5-0;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	11470	11499	.	.	.	ID=TE 5-1;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	15158	15173	.	.	.	ID=TE 5-2;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	34797	36217	.	.	.	ID=TE 5-3;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_112	feature	repeat_fragment	54346	54357	.	.	.	ID=TE 5-4;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_112	feature	primer_binding_site	35869	35888	.	.	.	ID=PBS 5;Parent=TE_BASE 5;name=pbs;color=#c7e9c0
+2Mb_part_112	feature	long_terminal_repeat	35961	36217	.	.	.	ID=LTR RIGHT 5-0;Parent=TE_BASE 5;name=ltr right;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	54346	54357	.	.	.	ID=LTR RIGHT 5-1;Parent=TE_BASE 5;name=ltr right;color=#f032e6
+2Mb_part_112	feature	long_terminal_repeat	4912	5179	.	.	.	ID=LTR LEFT 5-0;Parent=TE_BASE 5;name=ltr left;color=#f032e6

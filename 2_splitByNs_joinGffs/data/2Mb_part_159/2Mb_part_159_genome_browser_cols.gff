@@ -1,0 +1,18 @@
+##gff-version 3
+##sequence-region 2Mb_part_159 1 49585
+2Mb_part_159	feature	nested_repeat	28910	36693	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_159	feature	repeat_fragment	28910	36693	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_159	feature	polypeptide_conserved_region	29867	30245	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH;color=#fc4e2a
+2Mb_part_159	feature	polypeptide_conserved_region	30512	31268	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT;color=#feb24c
+2Mb_part_159	feature	polypeptide_conserved_region	31955	32558	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT;color=#b10026
+2Mb_part_159	feature	long_terminal_repeat	36606	36693	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_159	feature	long_terminal_repeat	28910	28995	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+2Mb_part_159	feature	nested_repeat	9610	17949	.	.	.	ID=TE_BASE 1;name=TE_BASE 1;color=#a9a9a9
+2Mb_part_159	feature	repeat_fragment	9610	17949	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1;color=#a9a9a9
+2Mb_part_159	feature	polypeptide_conserved_region	13897	14500	.	+	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT;color=#b10026
+2Mb_part_159	feature	polypeptide_conserved_region	15226	15991	.	+	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT;color=#feb24c
+2Mb_part_159	feature	polypeptide_conserved_region	16250	16628	.	+	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH;color=#fc4e2a
+2Mb_part_159	feature	primer_binding_site	10032	10051	.	.	.	ID=PBS 1;Parent=TE_BASE 1;name=pbs;color=#c7e9c0
+2Mb_part_159	feature	RR_tract	17515	17529	.	.	.	ID=PPT 1;Parent=TE_BASE 1;name=ppt;color=#41ab5d
+2Mb_part_159	feature	long_terminal_repeat	17529	17949	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right;color=#f032e6
+2Mb_part_159	feature	long_terminal_repeat	9610	10028	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left;color=#f032e6

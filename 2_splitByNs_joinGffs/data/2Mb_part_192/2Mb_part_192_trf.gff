@@ -1,0 +1,3 @@
+##gff-version 3
+2Mb_part_192	feature	tandem_repeat	280	320	.	.	.	ID=tandem_repeat_0;monomer_count=2.1;monomer=GTGCACCGGACTGTCTGGTGTGCACCCGACAGTGTCCGGTG
+

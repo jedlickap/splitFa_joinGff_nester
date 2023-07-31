@@ -1,0 +1,10 @@
+##gff-version 3
+##sequence-region 2Mb_part_180 1 11460
+2Mb_part_180	feature	nested_repeat	645	11434	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_180	feature	repeat_fragment	645	11434	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_180	feature	polypeptide_conserved_region	2281	2812	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_180	feature	polypeptide_conserved_region	6060	6270	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT
+2Mb_part_180	feature	polypeptide_conserved_region	8130	8412	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG
+2Mb_part_180	feature	primer_binding_site	1368	1386	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_180	feature	long_terminal_repeat	10721	11434	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_180	feature	long_terminal_repeat	645	1357	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right

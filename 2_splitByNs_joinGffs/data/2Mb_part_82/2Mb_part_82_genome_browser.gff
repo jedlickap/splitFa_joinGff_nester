@@ -1,0 +1,11 @@
+##gff-version 3
+##sequence-region 2Mb_part_82 1 18723
+2Mb_part_82	feature	nested_repeat	2455	18581	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_82	feature	repeat_fragment	2455	18581	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_82	feature	polypeptide_conserved_region	11813	12173	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=GAG
+2Mb_part_82	feature	polypeptide_conserved_region	12488	12947	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH
+2Mb_part_82	feature	polypeptide_conserved_region	12992	13325	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH
+2Mb_part_82	feature	polypeptide_conserved_region	13703	14597	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Ogre;name=INT
+2Mb_part_82	feature	primer_binding_site	3434	3453	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_82	feature	long_terminal_repeat	17651	18581	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_82	feature	long_terminal_repeat	2455	3390	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left

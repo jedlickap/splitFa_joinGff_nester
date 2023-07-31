@@ -1,0 +1,31 @@
+##gff-version 3
+##sequence-region 2Mb_part_177 1 39164
+2Mb_part_177	feature	nested_repeat	29061	38091	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_177	feature	repeat_fragment	29061	38091	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_177	feature	polypeptide_conserved_region	31579	31957	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_177	feature	polypeptide_conserved_region	32224	32989	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_177	feature	polypeptide_conserved_region	33667	34177	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_177	feature	polypeptide_conserved_region	36096	36372	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG
+2Mb_part_177	feature	RR_tract	37771	37785	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_177	feature	long_terminal_repeat	37795	38091	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_177	feature	long_terminal_repeat	29061	29357	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_177	feature	nested_repeat	20677	29059	.	.	.	ID=TE_BASE 1;name=TE_BASE 1
+2Mb_part_177	feature	repeat_fragment	20677	29059	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1
+2Mb_part_177	feature	polypeptide_conserved_region	21933	22215	.	+	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG
+2Mb_part_177	feature	polypeptide_conserved_region	23869	24013	.	+	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT
+2Mb_part_177	feature	polypeptide_conserved_region	24273	24876	.	+	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_177	feature	polypeptide_conserved_region	25897	26317	.	+	.	ID=DOMAIN 1-3-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_177	feature	polypeptide_conserved_region	26584	26962	.	+	.	ID=DOMAIN 1-4-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_177	feature	primer_binding_site	21408	21425	.	.	.	ID=PBS 1;Parent=TE_BASE 1;name=pbs
+2Mb_part_177	feature	RR_tract	28253	28307	.	.	.	ID=PPT 1;Parent=TE_BASE 1;name=ppt
+2Mb_part_177	feature	long_terminal_repeat	28329	29059	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right
+2Mb_part_177	feature	long_terminal_repeat	20677	21403	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left
+2Mb_part_177	feature	nested_repeat	22	8925	.	.	.	ID=TE_BASE 2;name=TE_BASE 2
+2Mb_part_177	feature	repeat_fragment	22	8925	.	.	.	ID=TE 2-0;Parent=TE_BASE 2;name=TE 2
+2Mb_part_177	feature	polypeptide_conserved_region	2130	2508	.	-	.	ID=DOMAIN 2-0-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH
+2Mb_part_177	feature	polypeptide_conserved_region	2775	3540	.	-	.	ID=DOMAIN 2-1-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT
+2Mb_part_177	feature	polypeptide_conserved_region	4218	4821	.	-	.	ID=DOMAIN 2-2-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT
+2Mb_part_177	feature	polypeptide_conserved_region	5013	5223	.	-	.	ID=DOMAIN 2-3-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT
+2Mb_part_177	feature	polypeptide_conserved_region	6913	7165	.	-	.	ID=DOMAIN 2-4-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG
+2Mb_part_177	feature	long_terminal_repeat	7731	8925	.	.	.	ID=LTR LEFT 2-0;Parent=TE_BASE 2;name=ltr left
+2Mb_part_177	feature	long_terminal_repeat	22	1235	.	.	.	ID=LTR RIGHT 2-0;Parent=TE_BASE 2;name=ltr right

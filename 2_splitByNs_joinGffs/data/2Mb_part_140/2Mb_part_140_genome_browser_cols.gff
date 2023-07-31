@@ -1,0 +1,9 @@
+##gff-version 3
+##sequence-region 2Mb_part_140 1 9963
+2Mb_part_140	feature	nested_repeat	19	9871	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_140	feature	repeat_fragment	19	9871	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_140	feature	polypeptide_conserved_region	8902	8995	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::Gymco-I;name=RH;color=#fc4e2a
+2Mb_part_140	feature	primer_binding_site	237	255	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=ppt;color=#41ab5d
+2Mb_part_140	feature	RR_tract	9658	9672	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=pbs;color=#c7e9c0
+2Mb_part_140	feature	long_terminal_repeat	9705	9871	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_140	feature	long_terminal_repeat	19	182	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6

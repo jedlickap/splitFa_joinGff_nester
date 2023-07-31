@@ -1,0 +1,15 @@
+##gff-version 3
+##sequence-region 2Mb_part_97 1 19543
+2Mb_part_97	feature	nested_repeat	4002	13340	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_97	feature	repeat_fragment	4002	13340	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_97	feature	polypeptide_conserved_region	5960	6236	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=GAG;color=#225ea8
+2Mb_part_97	feature	polypeptide_conserved_region	8106	8310	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=PROT;color=#a9a9a9
+2Mb_part_97	feature	polypeptide_conserved_region	8502	9105	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT;color=#b10026
+2Mb_part_97	feature	polypeptide_conserved_region	9828	10593	.	+	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT;color=#feb24c
+2Mb_part_97	feature	polypeptide_conserved_region	10781	11102	.	+	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH;color=#fc4e2a
+2Mb_part_97	feature	primer_binding_site	5317	5335	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs;color=#c7e9c0
+2Mb_part_97	feature	RR_tract	11995	12009	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt;color=#41ab5d
+2Mb_part_97	feature	long_terminal_repeat	12009	13340	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+2Mb_part_97	feature	long_terminal_repeat	4002	5312	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_97	feature	target_site_duplication	3997	4001	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left;color=#333333
+2Mb_part_97	feature	target_site_duplication	13341	13345	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right;color=#333333

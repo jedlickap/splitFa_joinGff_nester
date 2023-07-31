@@ -1,0 +1,17 @@
+##gff-version 3
+2Mb_part_180	feature	tandem_repeat	10022	10065	.	.	.	ID=tandem_repeat_0;monomer_count=2.0;monomer=CACCGGACACTGTCCGGTGCACCACCGGACAGTCCCGGTGCACC
+
+2Mb_part_180	feature	tandem_repeat	9793	9823	.	.	.	ID=tandem_repeat_1;monomer_count=1.9;monomer=CGGCCGACCGTTGGCCCGGCCGATCGTTGGC
+
+2Mb_part_180	feature	tandem_repeat	9709	9747	.	.	.	ID=tandem_repeat_2;monomer_count=2.0;monomer=CACCGGACATGTCCGGTGCACACCGGACAGACCCGGTGC
+
+2Mb_part_180	feature	tandem_repeat	9612	9650	.	.	.	ID=tandem_repeat_3;monomer_count=2.0;monomer=CACCGGACAGTCCGGTGCACACCGGACACTGTCCGGTGC
+
+2Mb_part_180	feature	tandem_repeat	6704	6762	.	.	.	ID=tandem_repeat_4;monomer_count=2.5;monomer=TTTCCTAGGAGCATGAGCAAAATTCTTTCTAGGCACATGATGAATATTTTTCCTAGGCA
+
+2Mb_part_180	feature	tandem_repeat	4629	4691	.	.	.	ID=tandem_repeat_5;monomer_count=2.9;monomer=TGTCCGGTGTACACCGGACAGTGTCCGGTGCACCACCGGACAGTGTCCGGTGCACCGGAGGAC
+
+2Mb_part_180	feature	tandem_repeat	4185	4230	.	.	.	ID=tandem_repeat_6;monomer_count=3.8;monomer=ATTTGCAAAAGAACTTTGAAAAGGATTTACAAAAGAGTTTGCAAAA
+
+2Mb_part_180	feature	tandem_repeat	1802	1849	.	.	.	ID=tandem_repeat_7;monomer_count=2.3;monomer=AAATGAGGTTGAAGCTCAAGTTGATGAAGTAGAAGATCAAGCAAATGA
+

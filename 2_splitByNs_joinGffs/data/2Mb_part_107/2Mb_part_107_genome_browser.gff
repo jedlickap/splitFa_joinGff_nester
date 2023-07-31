@@ -1,0 +1,19 @@
+##gff-version 3
+##sequence-region 2Mb_part_107 1 49018
+2Mb_part_107	feature	nested_repeat	25072	38409	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_107	feature	repeat_fragment	25072	38409	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_107	feature	polypeptide_conserved_region	31810	32743	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT
+2Mb_part_107	feature	polypeptide_conserved_region	33070	33433	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH
+2Mb_part_107	feature	polypeptide_conserved_region	33478	33943	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH
+2Mb_part_107	feature	polypeptide_conserved_region	34153	34675	.	-	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RT
+2Mb_part_107	feature	polypeptide_conserved_region	36166	36523	.	-	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=GAG
+2Mb_part_107	feature	long_terminal_repeat	37780	38409	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_107	feature	long_terminal_repeat	25072	25701	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_107	feature	target_site_duplication	25067	25071	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
+2Mb_part_107	feature	target_site_duplication	38410	38414	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left
+2Mb_part_107	feature	nested_repeat	22928	43772	.	.	.	ID=TE_BASE 1;name=TE_BASE 1
+2Mb_part_107	feature	repeat_fragment	22928	25072	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1
+2Mb_part_107	feature	repeat_fragment	38409	43772	.	.	.	ID=TE 1-1;Parent=TE_BASE 1;name=TE 1
+2Mb_part_107	feature	RR_tract	24113	24127	.	.	.	ID=PPT 1;Parent=TE_BASE 1;name=ppt
+2Mb_part_107	feature	long_terminal_repeat	42672	43772	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right
+2Mb_part_107	feature	long_terminal_repeat	22928	24028	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left

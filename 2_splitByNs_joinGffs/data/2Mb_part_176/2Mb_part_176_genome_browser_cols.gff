@@ -1,0 +1,17 @@
+##gff-version 3
+##sequence-region 2Mb_part_176 1 38804
+2Mb_part_176	feature	nested_repeat	29599	37443	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_176	feature	repeat_fragment	29599	37443	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_176	feature	primer_binding_site	30055	30074	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs;color=#c7e9c0
+2Mb_part_176	feature	RR_tract	36937	36951	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt;color=#41ab5d
+2Mb_part_176	feature	long_terminal_repeat	36986	37443	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+2Mb_part_176	feature	long_terminal_repeat	29599	30054	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_176	feature	nested_repeat	20523	29597	.	.	.	ID=TE_BASE 1;name=TE_BASE 1;color=#a9a9a9
+2Mb_part_176	feature	repeat_fragment	20523	29597	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1;color=#a9a9a9
+2Mb_part_176	feature	polypeptide_conserved_region	25365	26289	.	-	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT;color=#b10026
+2Mb_part_176	feature	polypeptide_conserved_region	26601	26961	.	-	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#a9a9a9
+2Mb_part_176	feature	polypeptide_conserved_region	27009	27453	.	-	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH;color=#fc4e2a
+2Mb_part_176	feature	polypeptide_conserved_region	27663	28164	.	-	.	ID=DOMAIN 1-3-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RT;color=#feb24c
+2Mb_part_176	feature	polypeptide_conserved_region	28685	28922	.	-	.	ID=DOMAIN 1-4-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=PROT;color=#a9a9a9
+2Mb_part_176	feature	long_terminal_repeat	29246	29597	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left;color=#f032e6
+2Mb_part_176	feature	long_terminal_repeat	20523	20874	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right;color=#f032e6

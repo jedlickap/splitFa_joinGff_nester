@@ -1,0 +1,12 @@
+##gff-version 3
+##sequence-region 2Mb_part_165 1 14811
+2Mb_part_165	feature	nested_repeat	24	5135	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_165	feature	repeat_fragment	24	5135	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_165	feature	polypeptide_conserved_region	371	584	.	-	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=CHD;color=#a9a9a9
+2Mb_part_165	feature	polypeptide_conserved_region	671	1586	.	-	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=INT;color=#b10026
+2Mb_part_165	feature	polypeptide_conserved_region	1826	2261	.	-	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=RH;color=#fc4e2a
+2Mb_part_165	feature	polypeptide_conserved_region	2450	2798	.	-	.	ID=DOMAIN 0-3-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=RT;color=#feb24c
+2Mb_part_165	feature	polypeptide_conserved_region	3298	3520	.	-	.	ID=DOMAIN 0-4-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=PROT;color=#a9a9a9
+2Mb_part_165	feature	polypeptide_conserved_region	4003	4354	.	-	.	ID=DOMAIN 0-5-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty3/gypsy::chromovirus::Reina;name=GAG;color=#225ea8
+2Mb_part_165	feature	long_terminal_repeat	4820	5135	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_165	feature	long_terminal_repeat	24	339	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6

@@ -1,0 +1,72 @@
+##gff-version 3
+##sequence-region 2Mb_part_66 1 92659
+2Mb_part_66	feature	nested_repeat	76557	85577	.	.	.	ID=TE_BASE 0;name=TE_BASE 0;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	76557	85577	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	80731	81334	.	+	.	ID=DOMAIN 0-0-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=INT;color=#b10026
+2Mb_part_66	feature	polypeptide_conserved_region	82006	82771	.	+	.	ID=DOMAIN 0-1-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RT;color=#feb24c
+2Mb_part_66	feature	polypeptide_conserved_region	83038	83416	.	+	.	ID=DOMAIN 0-2-0;Parent=TE_BASE 0;annot=Class_I::LTR::Ty1/copia::SIRE;name=RH;color=#fc4e2a
+2Mb_part_66	feature	primer_binding_site	77836	77853	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	84290	84304	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	84304	85577	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	76557	77831	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left;color=#f032e6
+2Mb_part_66	feature	target_site_duplication	76552	76556	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left;color=#333333
+2Mb_part_66	feature	target_site_duplication	85578	85582	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right;color=#333333
+2Mb_part_66	feature	nested_repeat	56358	61289	.	.	.	ID=TE_BASE 1;name=TE_BASE 1;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	56358	61289	.	.	.	ID=TE 1-0;Parent=TE_BASE 1;name=TE 1;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	58136	58703	.	+	.	ID=DOMAIN 1-0-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::Ale;name=INT;color=#b10026
+2Mb_part_66	feature	polypeptide_conserved_region	59659	60424	.	+	.	ID=DOMAIN 1-1-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::Ale;name=RT;color=#feb24c
+2Mb_part_66	feature	polypeptide_conserved_region	60879	61071	.	+	.	ID=DOMAIN 1-2-0;Parent=TE_BASE 1;annot=Class_I::LTR::Ty1/copia::Ale;name=RH;color=#fc4e2a
+2Mb_part_66	feature	long_terminal_repeat	61160	61289	.	.	.	ID=LTR RIGHT 1-0;Parent=TE_BASE 1;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	56358	56487	.	.	.	ID=LTR LEFT 1-0;Parent=TE_BASE 1;name=ltr left;color=#f032e6
+2Mb_part_66	feature	target_site_duplication	56353	56357	.	.	.	ID=TSR LEFT 1;Parent=TE_BASE 1;name=tsr left;color=#333333
+2Mb_part_66	feature	target_site_duplication	61290	61294	.	.	.	ID=TSR RIGHT 1;Parent=TE_BASE 1;name=tsr right;color=#333333
+2Mb_part_66	feature	nested_repeat	45516	52346	.	.	.	ID=TE_BASE 2;name=TE_BASE 2;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	45516	52346	.	.	.	ID=TE 2-0;Parent=TE_BASE 2;name=TE 2;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	48610	48835	.	+	.	ID=DOMAIN 2-0-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=PROT;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	49366	49846	.	+	.	ID=DOMAIN 2-1-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RT;color=#feb24c
+2Mb_part_66	feature	polypeptide_conserved_region	50049	50484	.	+	.	ID=DOMAIN 2-2-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RH;color=#fc4e2a
+2Mb_part_66	feature	polypeptide_conserved_region	50700	51624	.	+	.	ID=DOMAIN 2-3-0;Parent=TE_BASE 2;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=INT;color=#b10026
+2Mb_part_66	feature	primer_binding_site	46089	46110	.	.	.	ID=PBS 2;Parent=TE_BASE 2;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	51764	51778	.	.	.	ID=PPT 2;Parent=TE_BASE 2;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	51778	52346	.	.	.	ID=LTR RIGHT 2-0;Parent=TE_BASE 2;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	45516	46084	.	.	.	ID=LTR LEFT 2-0;Parent=TE_BASE 2;name=ltr left;color=#f032e6
+2Mb_part_66	feature	target_site_duplication	45511	45515	.	.	.	ID=TSR LEFT 2;Parent=TE_BASE 2;name=tsr left;color=#333333
+2Mb_part_66	feature	target_site_duplication	52347	52351	.	.	.	ID=TSR RIGHT 2;Parent=TE_BASE 2;name=tsr right;color=#333333
+2Mb_part_66	feature	nested_repeat	25465	29585	.	.	.	ID=TE_BASE 3;name=TE_BASE 3;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	25465	29585	.	.	.	ID=TE 3-0;Parent=TE_BASE 3;name=TE 3;color=#a9a9a9
+2Mb_part_66	feature	primer_binding_site	25995	26016	.	.	.	ID=PBS 3;Parent=TE_BASE 3;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	28958	28972	.	.	.	ID=PPT 3;Parent=TE_BASE 3;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	29061	29585	.	.	.	ID=LTR RIGHT 3-0;Parent=TE_BASE 3;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	25465	25990	.	.	.	ID=LTR LEFT 3-0;Parent=TE_BASE 3;name=ltr left;color=#f032e6
+2Mb_part_66	feature	nested_repeat	13613	18825	.	.	.	ID=TE_BASE 4;name=TE_BASE 4;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	13613	18825	.	.	.	ID=TE 4-0;Parent=TE_BASE 4;name=TE 4;color=#a9a9a9
+2Mb_part_66	feature	primer_binding_site	14119	14139	.	.	.	ID=PBS 4;Parent=TE_BASE 4;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	18292	18306	.	.	.	ID=PPT 4;Parent=TE_BASE 4;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	18324	18825	.	.	.	ID=LTR RIGHT 4-0;Parent=TE_BASE 4;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	13613	14114	.	.	.	ID=LTR LEFT 4-0;Parent=TE_BASE 4;name=ltr left;color=#f032e6
+2Mb_part_66	feature	nested_repeat	4903	11742	.	.	.	ID=TE_BASE 5;name=TE_BASE 5;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	4903	11742	.	.	.	ID=TE 5-0;Parent=TE_BASE 5;name=TE 5;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	7981	8206	.	+	.	ID=DOMAIN 5-0-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=PROT;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	8732	9251	.	+	.	ID=DOMAIN 5-1-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RT;color=#feb24c
+2Mb_part_66	feature	polypeptide_conserved_region	9443	9878	.	+	.	ID=DOMAIN 5-2-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=RH;color=#fc4e2a
+2Mb_part_66	feature	polypeptide_conserved_region	10092	11016	.	+	.	ID=DOMAIN 5-3-0;Parent=TE_BASE 5;annot=Class_I::LTR::Ty3/gypsy::chromovirus::CRM;name=INT;color=#b10026
+2Mb_part_66	feature	primer_binding_site	5480	5501	.	.	.	ID=PBS 5;Parent=TE_BASE 5;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	11156	11170	.	.	.	ID=PPT 5;Parent=TE_BASE 5;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	11170	11742	.	.	.	ID=LTR RIGHT 5-0;Parent=TE_BASE 5;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	4903	5475	.	.	.	ID=LTR LEFT 5-0;Parent=TE_BASE 5;name=ltr left;color=#f032e6
+2Mb_part_66	feature	nested_repeat	35366	53057	.	.	.	ID=TE_BASE 6;name=TE_BASE 6;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	35366	45516	.	.	.	ID=TE 6-0;Parent=TE_BASE 6;name=TE 6;color=#a9a9a9
+2Mb_part_66	feature	repeat_fragment	52346	53057	.	.	.	ID=TE 6-1;Parent=TE_BASE 6;name=TE 6;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	38624	38984	.	+	.	ID=DOMAIN 6-0-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=GAG;color=#225ea8
+2Mb_part_66	feature	polypeptide_conserved_region	39689	39932	.	+	.	ID=DOMAIN 6-1-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=PROT;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	40466	40988	.	+	.	ID=DOMAIN 6-2-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RT;color=#feb24c
+2Mb_part_66	feature	polypeptide_conserved_region	41180	41645	.	+	.	ID=DOMAIN 6-3-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=RH;color=#fc4e2a
+2Mb_part_66	feature	polypeptide_conserved_region	41690	42053	.	+	.	ID=DOMAIN 6-4-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=aRH;color=#a9a9a9
+2Mb_part_66	feature	polypeptide_conserved_region	42520	43036	.	+	.	ID=DOMAIN 6-5-0;Parent=TE_BASE 6;annot=Class_I::LTR::Ty3/gypsy::non-chromovirus::OTA::Ogre/Tat::Retand;name=INT;color=#b10026
+2Mb_part_66	feature	primer_binding_site	36922	36938	.	.	.	ID=PBS 6;Parent=TE_BASE 6;name=pbs;color=#c7e9c0
+2Mb_part_66	feature	RR_tract	44655	44669	.	.	.	ID=PPT 6;Parent=TE_BASE 6;name=ppt;color=#41ab5d
+2Mb_part_66	feature	long_terminal_repeat	44713	45516	.	.	.	ID=LTR RIGHT 6-0;Parent=TE_BASE 6;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	52346	53057	.	.	.	ID=LTR RIGHT 6-1;Parent=TE_BASE 6;name=ltr right;color=#f032e6
+2Mb_part_66	feature	long_terminal_repeat	35366	36917	.	.	.	ID=LTR LEFT 6-0;Parent=TE_BASE 6;name=ltr left;color=#f032e6
+2Mb_part_66	feature	target_site_duplication	35361	35365	.	.	.	ID=TSR LEFT 6;Parent=TE_BASE 6;name=tsr left;color=#333333
+2Mb_part_66	feature	target_site_duplication	53058	53062	.	.	.	ID=TSR RIGHT 6;Parent=TE_BASE 6;name=tsr right;color=#333333

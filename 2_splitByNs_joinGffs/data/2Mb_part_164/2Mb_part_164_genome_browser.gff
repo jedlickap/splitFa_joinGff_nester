@@ -1,0 +1,10 @@
+##gff-version 3
+##sequence-region 2Mb_part_164 1 23230
+2Mb_part_164	feature	nested_repeat	6290	13719	.	.	.	ID=TE_BASE 0;name=TE_BASE 0
+2Mb_part_164	feature	repeat_fragment	6290	13719	.	.	.	ID=TE 0-0;Parent=TE_BASE 0;name=TE 0
+2Mb_part_164	feature	primer_binding_site	6959	6979	.	.	.	ID=PBS 0;Parent=TE_BASE 0;name=pbs
+2Mb_part_164	feature	RR_tract	12955	12969	.	.	.	ID=PPT 0;Parent=TE_BASE 0;name=ppt
+2Mb_part_164	feature	long_terminal_repeat	13054	13719	.	.	.	ID=LTR RIGHT 0-0;Parent=TE_BASE 0;name=ltr right
+2Mb_part_164	feature	long_terminal_repeat	6290	6955	.	.	.	ID=LTR LEFT 0-0;Parent=TE_BASE 0;name=ltr left
+2Mb_part_164	feature	target_site_duplication	6285	6289	.	.	.	ID=TSR LEFT 0;Parent=TE_BASE 0;name=tsr left
+2Mb_part_164	feature	target_site_duplication	13720	13724	.	.	.	ID=TSR RIGHT 0;Parent=TE_BASE 0;name=tsr right
