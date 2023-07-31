@@ -38,12 +38,6 @@ def sort_gffs(gff_list):
         sorted_gffs.append(sort_recalc_gff(gff))
     return sorted_gffs
 
-def get_last_nn(sort_gff):
-    with FileReadBackwards(sort_gff, encoding='utf-8') as frb_gff:
-        for line in frb_gff:
-            if '\tnested_repeat\t' in line:
-                return line
-            
 def gff2teDict(gff):
     gffObj = lambda: None
     te_dict = {}
